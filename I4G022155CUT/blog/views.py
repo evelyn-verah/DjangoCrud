@@ -8,7 +8,6 @@ from django.urls import reverse_lazy
 from .models import Post
 
 # Create your views here.
-# Create your views here1122.
  
 class PostListView(ListView):
     model = Post
